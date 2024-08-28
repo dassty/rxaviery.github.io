@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+<form action="">
+    <table border="1" style="">
+        <tr>
+            <th colspan="4"> Registration Form</th>
+        </tr> 
+       
+        <tr>
+            <th><p>Enter Name</p></th>
+            <td>  <label for="entername"></label>
+                <input type="text" id="name" name="fname"></td>
+        </tr>
+        <tr>   
+        <th><p>Enter Password</p></th>
+
+        <td><label for="enterpassword"></label>
+            <input type="pass" id="pass1" name="pass2"> </td>
+    </tr>
+    <tr>
+        <th>Enter Address</th>
+        <td> <label for="add1"></label>
+            <textarea   id="add1"
+                        rows="5"
+                        cols="30">
+            </textarea></td>
+    </tr>
+    <tr>
+        <th>Select Game</th>
+        <td> <label for="chk1"></label>
+            <input type="checkbox"
+                    id="chk1"
+                    value="Hockey" />Hockey
+                    <br>
+            <input type="checkbox"
+                    id="chk2"
+                    value="Football" />Football 
+                    <br>
+            <input type="checkbox"
+                    id="chk3"
+                    value="Badminton" />Badminton
+                    <br>
+            <input type="checkbox"
+                    id="chk4"
+                    value="Cricket" />Cricket
+                    <br>
+            <input type="checkbox"
+                    id="chk1"
+                    value="Volleyball" />Volleyball
+                    <br>
+
+                
+                </td>
+    </tr>
+    <tr>
+        <th>Gender</th>
+        <td> <label for="rad1"></label>
+            <input  type="radio"
+                    name="gen1"
+                    id="genm"
+                    value="Male"/>Male
+            <input  type="radio"
+                    name="gen1"
+                    id="genf"
+                    value="Female"/>Female  </td>
+    </tr>
+    <tr>
+        <th>Select ur age</th>
+        <td> <label for="sel1"></label>
+            <select name="sel1" id="sel1">
+                <option value="0">Select</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+            </td>
+    </tr>
+    
+    <tr>
+        <th>Select Photo</th>
+        <td><input type="file" id="profile" name="picture" accept="image/png, image/jpeg" />
+        </td></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <center>
+             <p>
+                <button id="btn1">Click Me</button>
+
+                <input type="reset">
+
+                <button id="btn1">Submit Form</button>
+            </center>
+            </p>            
+        </td>
+    </tr>
+    </table> 
+</form>
+</body>
+</html>
